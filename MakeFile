@@ -1,0 +1,7 @@
+CC	= gcc
+CFLAGSS = -Wall Wextra -g
+
+encrypt_test: encrypt.o encrypt_test.o
+
+clean:
+	rm -f encrypt_test *.o
